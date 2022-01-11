@@ -1,5 +1,5 @@
 //Q: Find the two non-repeating elements in an array of repeating elements/ Unique Numbers 2
-// C++ program for above approach
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -50,3 +50,6 @@ int main()
     cout << "The non-repeating elements are " << *x
          << " and " << *y;
 }
+
+
+// code from GOG
