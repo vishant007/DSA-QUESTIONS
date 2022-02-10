@@ -11,7 +11,7 @@ void SieveOfEratosthenes(int n)
 	Primes[0] = 1;
 	for (int i = 3; i <= n; i += 2) {
 		if (Primes[i / 2] == 0) {
-			for (int j = 3 * i; j <= n; j += 2 * i)
+			for (int j = 3 * i; j <= n; j += 2 * i)   //to jump through member for the 3 multiples or similar multiples
 				Primes[j / 2] = 1;
 		}
 	}
