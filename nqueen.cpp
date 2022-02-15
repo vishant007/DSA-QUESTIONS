@@ -107,3 +107,5 @@ int main()
     solveNQ();
     return 0;
 }
+
+// source gfg
