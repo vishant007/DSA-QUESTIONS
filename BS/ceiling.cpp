@@ -41,3 +41,4 @@ int main()
         cout << "ceiling of " << x << " is " << arr[index];
  
     return 0;
+}
